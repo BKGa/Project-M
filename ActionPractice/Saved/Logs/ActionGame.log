@@ -1502,3 +1502,515 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.08-05.31.25:777][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.04.08-05.31.25:780][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
 [2024.04.08-05.31.25:838][ 38]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.04.08-05.36.40:774][653]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Ancient_Golem/Animation/Anim_Ancient_Golem_Moving_Wheels.Anim_Ancient_Golem_Moving_Wheels
+[2024.04.08-05.36.40:784][653]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Ancient_Golem/Animation/Anim_Ancient_Golem_Moving_Wheels.Anim_Ancient_Golem_Moving_Wheels
+[2024.04.08-05.36.40:832][653]LogSkeletalMesh: Building Skeletal Mesh SK_Ancient_Golem_Moving_Wheels...
+[2024.04.08-05.36.40:835][653]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.08-05.36.40:836][653]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.08-05.36.40:860][653]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_Ancient_Golem_Moving_Wheels) ...
+[2024.04.08-05.36.40:921][653]LogAnimationCompression: Display: Storing compressed animation data for /Game/Ancient_Golem/Animation/Anim_Ancient_Golem_Moving_Wheels.Anim_Ancient_Golem_Moving_Wheels, at AnimationSequence/812efec9694f23c2d3d370acf5737c5e4ce533e5
+[2024.04.08-05.36.41:334][653]LogTexture: Display: Building textures: /Game/Ancient_Golem/Textures/T_Ancient_Golem_Moving_Wheels_BaseColor.T_Ancient_Golem_Moving_Wheels_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.04.08-05.36.41:440][653]LogTexture: Display: Building textures: /Game/Ancient_Golem/Textures/T_Ancient_Golem_Moving_Wheels_Normal.T_Ancient_Golem_Moving_Wheels_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.04.08-05.36.41:487][653]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Ancient_Golem/Mesh/SK_Ancient_Golem_Moving_Wheels.SK_Ancient_Golem_Moving_Wheels
+[2024.04.08-05.36.41:488][653]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.04.08-05.36.41:500][653]LogTexture: Display: Building textures: /Game/Ancient_Golem/Textures/T_Ancient_Golem_Moving_WheelsOcclusionRoughnessMetallic.T_Ancient_Golem_Moving_WheelsOcclusionRoughnessMetallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.04.08-05.36.41:506][653]LogTexture: Display: Waiting for textures to be ready 0/3 (/Game/Ancient_Golem/Textures/T_Ancient_Golem_Moving_Wheels_Normal) ...
+[2024.04.08-05.36.42:412][653]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.08-05.36.42:412][653]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.08-05.36.42:561][653]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.08-05.36.42:654][653]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/ApexDestruction.DestructibleMesh'
+[2024.04.08-05.36.42:663][653]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.08-05.36.42:663][653]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.08-05.36.42:816][653]LogViewport: Scene viewport resized to 1141x533, mode Windowed.
+[2024.04.08-05.36.42:857][653]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.04.08-05.36.42:910][653]LogAutomationController: Ignoring very large delta of 3.43 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: ================================================
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: Total job queries 17, among them cache hits 2 (11.76%)
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: Tracking 11 distinct input hashes that result in 11 distinct outputs (100.00%)
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: RAM used: 334.52 KiB of 1.60 GiB budget. Usage: 0.02%
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: Shaders Compiled: 11
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: Jobs assigned 15, completed 11 (73.33%)
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: Average time worker was idle: 299.94 s
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: Time job spent in pending queue: average 0.24 s, longest 1.40 s
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: Job execution time: average 1.14 s, max 1.62 s
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: Job life time (pending + execution): average 1.46 s, max 1.72
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: Shader code size: average 56.633 KiB, min 4.398 KiB, max 75.121 KiB
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.09 s
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: Jobs were issued in 15 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: Average processing rate: 5.26 jobs/sec
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: Total thread time: 2.859 s
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: Total thread preprocess time: 0.337 s
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: Percentage time preprocessing: 11.80%
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: Effective parallelization: 1.37 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    4 times, average 0.32 sec, max 0.34 sec, min 0.26 sec)
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 0.31 sec, max 0.32 sec, min 0.30 sec)
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.26 sec, max 0.29 sec, min 0.23 sec)
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.19 sec, max 0.19 sec, min 0.19 sec)
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    2 times, average 0.12 sec, max 0.13 sec, min 0.12 sec)
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 44.71% of total time (compiled    4 times, average 0.32 sec, max 0.34 sec, min 0.26 sec)
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 21.59% of total time (compiled    2 times, average 0.31 sec, max 0.32 sec, min 0.30 sec)
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 18.26% of total time (compiled    2 times, average 0.26 sec, max 0.29 sec, min 0.23 sec)
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display:                                                  FHitProxyPS - 8.71% of total time (compiled    2 times, average 0.12 sec, max 0.13 sec, min 0.12 sec)
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display:                                                  FHitProxyVS - 6.73% of total time (compiled    1 times, average 0.19 sec, max 0.19 sec, min 0.19 sec)
+[2024.04.08-05.36.43:060][655]LogShaderCompilers: Display: ================================================
+[2024.04.08-05.36.43:357][670]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.08-05.36.43:407][672]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.08-05.36.52:192][151]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.04.08-05.36.52:192][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.08-05.36.52:203][151]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.04.08-05.36.52:203][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.08-05.36.52:238][151]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.04.08-05.36.52:238][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.08-05.36.57:841][471]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.08-05.37.16:464][454]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.04.08-05.37.16:467][454]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Ancient_Golem/Animation/Anim_Ancient_Golem_Head_Wheel.Anim_Ancient_Golem_Head_Wheel
+[2024.04.08-05.37.16:468][454]LogAnimationCompression: Display: Storing compressed animation data for /Game/Ancient_Golem/Animation/Anim_Ancient_Golem_Head_Wheel.Anim_Ancient_Golem_Head_Wheel, at AnimationSequence/c2b5d0f2f0a8eae78e6b9492d95a91ae5d396b11
+[2024.04.08-05.37.16:535][454]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Ancient_Golem/Demo/ThirdPerson_Jump.ThirdPerson_Jump
+[2024.04.08-05.37.16:555][454]LogAnimationCompression: Display: Storing compressed animation data for /Game/Ancient_Golem/Demo/ThirdPerson_Jump.ThirdPerson_Jump, at AnimationSequence/0c505440ef13a72f9d5f7a5452357ecc892f11fd
+[2024.04.08-05.37.16:584][454]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Ancient_Golem/Demo/ThirdPersonIdle.ThirdPersonIdle
+[2024.04.08-05.37.16:589][454]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Ancient_Golem/Demo/ThirdPersonRun.ThirdPersonRun
+[2024.04.08-05.37.16:603][454]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Ancient_Golem/Demo/ThirdPersonWalk.ThirdPersonWalk
+[2024.04.08-05.37.16:610][454]LogAnimationCompression: Display: Storing compressed animation data for /Game/Ancient_Golem/Demo/ThirdPersonRun.ThirdPersonRun, at AnimationSequence/c602726b7a12ccc6723ccae2c23ba9590e45337f
+[2024.04.08-05.37.16:638][454]LogAnimationCompression: Display: Storing compressed animation data for /Game/Ancient_Golem/Demo/ThirdPersonWalk.ThirdPersonWalk, at AnimationSequence/945b1cde6bc115017865b2a23ea46fb411434f88
+[2024.04.08-05.37.16:645][454]LogAnimationCompression: Display: Storing compressed animation data for /Game/Ancient_Golem/Demo/ThirdPersonIdle.ThirdPersonIdle, at AnimationSequence/df16967aa36d53c91617a3653a595b6eaae8a2bb
+[2024.04.08-05.37.16:673][454]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Ancient_Golem/Demo/ThirdPersonJump_Loop.ThirdPersonJump_Loop
+[2024.04.08-05.37.16:679][454]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Ancient_Golem/Demo/ThirdPersonJump_Start.ThirdPersonJump_Start
+[2024.04.08-05.37.16:691][454]LogAnimationCompression: Display: Storing compressed animation data for /Game/Ancient_Golem/Demo/ThirdPersonJump_Loop.ThirdPersonJump_Loop, at AnimationSequence/93b476a703f8a664ed1bb552d64cd82a13464ac8
+[2024.04.08-05.37.16:696][454]LogAnimationCompression: Display: Storing compressed animation data for /Game/Ancient_Golem/Demo/ThirdPersonJump_Start.ThirdPersonJump_Start, at AnimationSequence/34542d269d148926ff2084cda0ebc96c3b3888f8
+[2024.04.08-05.37.16:810][454]LogTexture: Display: Building textures: /Game/Ancient_Golem/Maps/Ancient_Golem_BuiltData.Ancient_Golem_BuiltData:HQ_Lightmap1_2 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 0.713502 MB), EncodeSpeed: Fast
+[2024.04.08-05.37.16:810][454]LogTexture: Display: Building textures: /Game/Ancient_Golem/Maps/Ancient_Golem_BuiltData.Ancient_Golem_BuiltData:LQ_Lightmap_1_2 (TFO_DXT1, 64x64 x1x1x1) (Required Memory Estimate: 0.533824 MB), EncodeSpeed: Fast
+[2024.04.08-05.37.16:810][454]LogTexture: Display: Building textures: /Game/Ancient_Golem/Maps/Ancient_Golem_BuiltData.Ancient_Golem_BuiltData:ShadowMapTexture2D_2 (G8, 128x128 x1x1x1) (Required Memory Estimate: 0.437494 MB), EncodeSpeed: Fast
+[2024.04.08-05.37.16:810][454]LogTexture: Display: Building textures: /Game/Ancient_Golem/Maps/Ancient_Golem_BuiltData.Ancient_Golem_BuiltData:ShadowMapTexture2D_3 (G8, 32x32 x1x1x1) (Required Memory Estimate: 0.085932 MB), EncodeSpeed: Fast
+[2024.04.08-05.37.16:810][454]LogTexture: Display: Building textures: /Game/Ancient_Golem/Maps/Ancient_Golem_BuiltData.Ancient_Golem_BuiltData:HQ_Lightmap1_1 (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.479041 MB), EncodeSpeed: Fast
+[2024.04.08-05.37.16:810][454]LogTexture: Display: Building textures: /Game/Ancient_Golem/Maps/Ancient_Golem_BuiltData.Ancient_Golem_BuiltData:LQ_Lightmap_1_1 (TFO_DXT1, 256x256 x1x1x1) (Required Memory Estimate: 7.604136 MB), EncodeSpeed: Fast
+[2024.04.08-05.37.16:813][454]LogTexture: Display: Building textures: /Game/Ancient_Golem/Maps/Ancient_Golem_BuiltData.Ancient_Golem_BuiltData:NewReflectionComponentTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Fast
+[2024.04.08-05.37.17:055][454]LogSkeletalMesh: Building Skeletal Mesh SK_Ancient_Golem...
+[2024.04.08-05.37.17:085][454]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.08-05.37.17:133][454]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_Ancient_Golem) ...
+[2024.04.08-05.37.17:487][454]LogTexture: Display: Building textures: /Game/Ancient_Golem/Textures/T_Ancient_Golem_Arms_BaseColor.T_Ancient_Golem_Arms_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.04.08-05.37.17:616][454]LogTexture: Display: Building textures: /Game/Ancient_Golem/Textures/T_Ancient_Golem_Main_Armor_BaseColor.T_Ancient_Golem_Main_Armor_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.04.08-05.37.17:645][454]LogTexture: Display: Building textures: /Game/Ancient_Golem/Textures/T_Ancient_Golem_Arms_OcclusionRoughnessMetallic.T_Ancient_Golem_Arms_OcclusionRoughnessMetallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.04.08-05.37.17:654][454]LogTexture: Display: Building textures: /Game/Ancient_Golem/Textures/T_Ancient_Golem_Main_Armor_OcclusionRoughnessMetallic.T_Ancient_Golem_Main_Armor_OcclusionRoughnessMetallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.04.08-05.37.17:711][454]LogTexture: Display: Building textures: /Game/Ancient_Golem/Textures/T_Ancient_Golem_Arms_Normal.T_Ancient_Golem_Arms_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.04.08-05.37.17:725][454]LogTexture: Display: Building textures: /Game/Ancient_Golem/Textures/T_Ancient_Golem_Main_Armor_Normal.T_Ancient_Golem_Main_Armor_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.04.08-05.37.19:075][454]LogSkeletalMesh: Building Skeletal Mesh SK_Ancient_Golem_Head_Wheel...
+[2024.04.08-05.37.19:130][454]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/Ancient_Golem/Mesh/SK_Ancient_Golem_Head_Wheel.SK_Ancient_Golem_Head_Wheel
+[2024.04.08-05.37.20:198][454]LogSkeletalMesh: Built Skeletal Mesh [3.14s] /Game/Ancient_Golem/Mesh/SK_Ancient_Golem.SK_Ancient_Golem
+[2024.04.08-05.37.20:380][454]LogObjectTools: Deleting 1 worlds: /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem
+[2024.04.08-05.37.20:380][454]LogObjectTools: Currently 13 active worlds: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_6, /Engine/Transient.World_7, /Engine/Transient.World_8, /Engine/Transient.World_9, /Engine/Transient.World_10, /Engine/Transient.World_13, /Engine/Transient.World_15, /Engine/Transient.World_16, /Engine/Transient.World_17
+[2024.04.08-05.37.20:512][454]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2024.04.08-05.38.36:383][454]LogSlate: Window 'Delete Assets' being destroyed
+[2024.04.08-05.38.37:431][454]LogUObjectGlobals: Force Deleting 32 Package(s):
+	Asset Name: /Game/Ancient_Golem/Mesh/SK_Ancient_Golem_Moving_Wheels.SK_Ancient_Golem_Moving_Wheels
+	Asset Type: SkeletalMesh
+	Asset Name: /Game/Ancient_Golem/Mesh/SK_Ancient_Golem_Moving_Wheels_PhysicsAsset.SK_Ancient_Golem_Moving_Wheels_PhysicsAsset
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/Ancient_Golem/Materials/Mat_T_Ancient_Golem_Moving_Wheels.Mat_T_Ancient_Golem_Moving_Wheels
+	Asset Type: Material
+	Asset Name: /Game/Ancient_Golem/Textures/T_Ancient_Golem_Moving_WheelsOcclusionRoughnessMetallic.T_Ancient_Golem_Moving_WheelsOcclusionRoughnessMetallic
+	Asset Type: Texture2D
+	Asset Name: /Game/Ancient_Golem/Textures/T_Ancient_Golem_Moving_Wheels_Normal.T_Ancient_Golem_Moving_Wheels_Normal
+	Asset Type: Texture2D
+	Asset Name: /Game/Ancient_Golem/Textures/T_Ancient_Golem_Moving_Wheels_BaseColor.T_Ancient_Golem_Moving_Wheels_BaseColor
+	Asset Type: Texture2D
+	Asset Name: /Game/Ancient_Golem/Animation/Anim_Ancient_Golem_Moving_Wheels.Anim_Ancient_Golem_Moving_Wheels
+	Asset Type: AnimSequence
+	Asset Name: /Game/Ancient_Golem/Mesh/SK_Ancient_Golem_Moving_Wheels_Skeleton.SK_Ancient_Golem_Moving_Wheels_Skeleton
+	Asset Type: Skeleton
+	Asset Name: /Game/Ancient_Golem/Animation/Anim_Ancient_Golem_Head_Wheel.Anim_Ancient_Golem_Head_Wheel
+	Asset Type: AnimSequence
+	Asset Name: /Game/Ancient_Golem/Demo/ThirdPerson_Jump.ThirdPerson_Jump
+	Asset Type: AnimSequence
+[2024.04.08-05.38.38:715][454]LogMaterial: Warning: [AssetLog] D:\Github Respository BKBG\Project-M\ActionPractice\Content\Ancient_Golem\Materials\Mat_T_Ancient_Golem_Moving_Wheels.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.04.08-05.38.38:731][454]LogMaterial: Warning: Mat_T_Ancient_Golem_Moving_Wheels: Requesting an invalid TextureIndex! (1 / 0)
+[2024.04.08-05.38.38:744][454]LogMaterial: Warning: [AssetLog] D:\Github Respository BKBG\Project-M\ActionPractice\Content\Ancient_Golem\Materials\Mat_T_Ancient_Golem_Moving_Wheels.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.04.08-05.38.38:781][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.38:801][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem6_50)
+[2024.04.08-05.38.38:801][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem6_50)
+[2024.04.08-05.38.38:801][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.38:801][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem5_46)
+[2024.04.08-05.38.38:801][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem5_46)
+[2024.04.08-05.38.38:801][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.38:801][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem4_42)
+[2024.04.08-05.38.38:801][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem4_42)
+[2024.04.08-05.38.38:801][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.38:801][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem3_38)
+[2024.04.08-05.38.38:801][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem3_38)
+[2024.04.08-05.38.38:801][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.38:801][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem2_32)
+[2024.04.08-05.38.38:801][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem2_32)
+[2024.04.08-05.38.38:801][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.38:801][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem7_54)
+[2024.04.08-05.38.38:801][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem7_54)
+[2024.04.08-05.38.38:801][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.38:803][454]LogMaterial: Warning: [AssetLog] D:\Github Respository BKBG\Project-M\ActionPractice\Content\Ancient_Golem\Materials\Mat_T_Ancient_Golem_Main_Armor.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.04.08-05.38.38:805][454]LogMaterial: Warning: [AssetLog] D:\Github Respository BKBG\Project-M\ActionPractice\Content\Ancient_Golem\Materials\Mat_T_Ancient_Golem_Main_Armor.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.04.08-05.38.38:807][454]LogMaterial: Warning: [AssetLog] D:\Github Respository BKBG\Project-M\ActionPractice\Content\Ancient_Golem\Materials\Mat_T_Ancient_Golem_Arms.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.04.08-05.38.38:809][454]LogMaterial: Warning: [AssetLog] D:\Github Respository BKBG\Project-M\ActionPractice\Content\Ancient_Golem\Materials\Mat_T_Ancient_Golem_Arms.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.04.08-05.38.38:828][454]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_Ancient_Golem) ...
+[2024.04.08-05.38.38:880][454]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_Ancient_Golem) ...
+[2024.04.08-05.38.38:940][454]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_Ancient_Golem) ...
+[2024.04.08-05.38.38:992][454]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_Ancient_Golem) ...
+[2024.04.08-05.38.39:029][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem5_46)
+[2024.04.08-05.38.39:029][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem5_46)
+[2024.04.08-05.38.39:029][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.39:029][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem6_50)
+[2024.04.08-05.38.39:029][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem6_50)
+[2024.04.08-05.38.39:029][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.39:029][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem3_38)
+[2024.04.08-05.38.39:029][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem3_38)
+[2024.04.08-05.38.39:029][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem4_42)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem4_42)
+[2024.04.08-05.38.39:030][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem2_32)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem2_32)
+[2024.04.08-05.38.39:030][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.39:030][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem6_50)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem6_50)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem6_50)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem6_50)
+[2024.04.08-05.38.39:030][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem5_46)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem5_46)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem5_46)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem5_46)
+[2024.04.08-05.38.39:030][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem4_42)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem4_42)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem4_42)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem4_42)
+[2024.04.08-05.38.39:030][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem3_38)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem3_38)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem3_38)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem3_38)
+[2024.04.08-05.38.39:030][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem2_32)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem2_32)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem2_32)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem2_32)
+[2024.04.08-05.38.39:030][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem7_54)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem7_54)
+[2024.04.08-05.38.39:030][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem7_54)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem7_54)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(headSocket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem7_54)
+[2024.04.08-05.38.39:030][454]LogSkinnedMeshComp: Warning: GetSocketInfoByName(spine_03Socket): No SkeletalMesh for Component(SkeletalMeshComponent0) Actor(SkeletalMeshActor /Game/Ancient_Golem/Maps/Ancient_Golem.Ancient_Golem:PersistentLevel.SK_Ancient_Golem7_54)
+[2024.04.08-05.38.39:030][454]LogAnimation: Warning: Invalid animation skeleton
+[2024.04.08-05.38.39:270][454]LogWorld: UWorld::CleanupWorld for Ancient_Golem, bSessionEnded=true, bCleanupResources=true
+[2024.04.08-05.38.39:270][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.08-05.38.40:379][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.04.08-05.38.40:396][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.04.08-05.38.40:412][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.04.08-05.38.40:517][454]LogAutomationController: Ignoring very large delta of 84.09 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.08-05.38.44:964][718]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.08-05.38.44:970][718]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.08-05.38.44:970][718]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.08-05.38.44:973][718]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 14 ms)
+[2024.04.08-05.38.44:973][718]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.08-05.38.44:973][718]PIE: New page: PIE session: ThirdPersonMap (Apr 7, 2024, 3:38:44 PM)
+[2024.04.08-05.38.44:973][718]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.08-05.38.44:981][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008043s)
+[2024.04.08-05.38.44:981][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.008462s)
+[2024.04.08-05.38.44:993][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.04.08-05.38.44:995][718]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.08-05.38.44:995][718]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.08-05.38.44:995][718]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.08-05.38.44:995][718]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.08-05.38.44:995][718]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.08-05.38.44:995][718]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.08-05.38.44:995][718]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.08-05.38.44:997][718]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.08-05.38.44:997][718]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 4.02 sec)
+[2024.04.08-05.38.44:997][718]LogPlayLevel: PIE: World Init took: (0.003218s)
+[2024.04.08-05.38.44:997][718]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.04.08-05.38.44:997][718]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.08-05.38.44:997][718]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.08-05.38.44:997][718]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.08-05.38.44:997][718]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.08-05.38.44:997][718]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.08-05.38.44:997][718]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.08-05.38.44:997][718]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.08-05.38.44:997][718]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.08-05.38.44:998][718]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.08-05.38.44:998][718]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.08-05.38.44:998][718]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.08-05.38.44:999][718]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.08-05.38.45:016][718]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Stealth 600P Gen 2 USB)
+[2024.04.08-05.38.45:016][718]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.08-05.38.45:016][718]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.08-05.38.45:016][718]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.08-05.38.45:017][718]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.04.08-05.38.45:017][718]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.04.08-05.38.45:019][718]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.04.08-05.38.45:019][718]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.04.08-05.38.45:019][718]LogInit: FAudioDevice initialized with ID 4.
+[2024.04.08-05.38.45:019][718]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2024.04.08-05.38.45:019][718]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.04.08-05.38.45:021][718]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.08-05.38.45:030][718]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.04.07-22.38.45
+[2024.04.08-05.38.45:030][718]LogWorld: Bringing up level for play took: 0.008341
+[2024.04.08-05.38.45:032][718]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.04.08-05.38.45:035][718]PIE: Server logged in
+[2024.04.08-05.38.45:036][718]PIE: Play in editor total start time 0.067 seconds.
+[2024.04.08-05.38.51:536][ 55]LogBlueprintUserMessages: [BP_Weapon_C_UAID_98E7439945056DDD01_1610540719] Item Obtained
+[2024.04.08-05.38.54:870][255]LogBlueprintUserMessages: [BP_Dummy_C_UAID_98E74399450558E901_1840190695] I HAVE BEEN DAMAGED! OW!
+[2024.04.08-05.38.56:726][366]LogBlueprintUserMessages: [BP_Dummy_C_UAID_98E74399450558E901_1840190695] I HAVE BEEN DAMAGED! OW!
+[2024.04.08-05.38.56:758][368]LogCharacterMovement: BP_ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-272.13 Y=147.45 Z=0.00 Location: X=547.22 Y=2102.43 Z=91.65 Normal: X=1.00 Y=-0.09 Z=-0.00 PenetrationDepth:2.007 Actor:BP_Dummy_C_UAID_98E74399450558E901_1840190695 Component:CharacterMesh0 BoneName:spine_04 (0 other events since notify)
+[2024.04.08-05.38.57:231][396]LogBlueprintUserMessages: [BP_Dummy_C_UAID_98E74399450558E901_1840190695] I HAVE BEEN DAMAGED! OW!
+[2024.04.08-05.38.59:100][508]LogBlueprintUserMessages: [BP_Dummy_C_UAID_98E74399450558E901_1840190695] I HAVE BEEN DAMAGED! OW!
+[2024.04.08-05.38.59:133][510]LogCharacterMovement: BP_ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-305.53 Y=49.48 Z=0.00 Location: X=220.29 Y=2205.10 Z=91.73 Normal: X=0.93 Y=0.37 Z=-0.00 PenetrationDepth:0.373 Actor:BP_Dummy_C_UAID_98E74399450558E901_1840190695 Component:CharacterMesh0 BoneName:spine_04 (0 other events since notify)
+[2024.04.08-05.38.59:616][539]LogBlueprintUserMessages: [BP_Dummy_C_UAID_98E74399450558E901_1840190695] I HAVE BEEN DAMAGED! OW!
+[2024.04.08-05.39.05:519][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.08-05.39.05:519][891]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.08-05.39.05:520][891]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.08-05.39.05:521][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.08-05.39.05:521][891]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.08-05.39.05:524][891]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.08-05.39.05:529][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.08-05.39.05:542][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.08-05.39.05:543][891]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.04.08-05.39.05:543][891]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.04.08-05.39.05:545][891]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.04.08-05.39.05:551][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.04.08-05.39.05:585][892]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.04.08-05.39.25:947][984]BlueprintLog: New page: Compile BP_Explosion
+[2024.04.08-05.39.26:063][984]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.04.08-05.39.27:976][ 89]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.08-05.39.28:026][ 89]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.08-05.39.28:756][ 89]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.08-05.39.28:782][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelPrototyping/BP_Explosion" FILE="../../../../../Github Respository BKBG/Project-M/ActionPractice/Content/LevelPrototyping/BP_Explosion.uasset" SILENT=true
+[2024.04.08-05.39.28:836][ 89]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/BP_Explosion
+[2024.04.08-05.39.28:836][ 89]LogSavePackage: Moving '../../../../../Github Respository BKBG/Project-M/ActionPractice/Saved/BP_ExplosionA013499543B1F5D48F782BB0B532FCB9.tmp' to '../../../../../Github Respository BKBG/Project-M/ActionPractice/Content/LevelPrototyping/BP_Explosion.uasset'
+[2024.04.08-05.39.28:846][ 89]LogFileHelpers: InternalPromptForCheckoutAndSave took 869 ms (total: 1.00 sec)
+[2024.04.08-05.39.28:847][ 89]AssetCheck: New page: Asset Save: BP_Explosion
+[2024.04.08-05.39.28:847][ 89]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LevelPrototyping/BP_Explosion.BP_Explosion
+[2024.04.08-05.39.31:134][225]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.08-05.39.31:140][225]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.08-05.39.31:140][225]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.08-05.39.31:143][225]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 17 ms)
+[2024.04.08-05.39.31:272][225]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.08-05.39.31:272][225]PIE: New page: PIE session: ThirdPersonMap (Apr 7, 2024, 3:39:31 PM)
+[2024.04.08-05.39.31:319][225]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.08-05.39.31:327][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008382s)
+[2024.04.08-05.39.31:327][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.008421s)
+[2024.04.08-05.39.31:343][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.04.08-05.39.31:345][225]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.08-05.39.31:346][225]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.08-05.39.31:346][225]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.08-05.39.31:346][225]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.08-05.39.31:346][225]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.08-05.39.31:346][225]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.08-05.39.31:346][225]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.08-05.39.31:349][225]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.08-05.39.31:349][225]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 4.02 sec)
+[2024.04.08-05.39.31:349][225]LogPlayLevel: PIE: World Init took: (0.003193s)
+[2024.04.08-05.39.31:349][225]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.04.08-05.39.31:349][225]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.08-05.39.31:349][225]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.08-05.39.31:349][225]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.08-05.39.31:349][225]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.08-05.39.31:349][225]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.08-05.39.31:349][225]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.08-05.39.31:349][225]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.08-05.39.31:349][225]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.08-05.39.31:349][225]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.08-05.39.31:349][225]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.08-05.39.31:349][225]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.08-05.39.31:351][225]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.08-05.39.31:367][225]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Stealth 600P Gen 2 USB)
+[2024.04.08-05.39.31:367][225]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.08-05.39.31:367][225]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.08-05.39.31:367][225]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.08-05.39.31:368][225]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.04.08-05.39.31:368][225]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.04.08-05.39.31:370][225]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.04.08-05.39.31:370][225]LogInit: FAudioDevice initialized with ID 5.
+[2024.04.08-05.39.31:370][225]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.04.08-05.39.31:370][225]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonMap'.
+[2024.04.08-05.39.31:370][225]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.04.08-05.39.31:373][225]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.08-05.39.31:381][225]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.04.07-22.39.31
+[2024.04.08-05.39.31:381][225]LogWorld: Bringing up level for play took: 0.008342
+[2024.04.08-05.39.31:383][225]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.04.08-05.39.31:386][225]PIE: Server logged in
+[2024.04.08-05.39.31:387][225]PIE: Play in editor total start time 0.246 seconds.
+[2024.04.08-05.39.36:001][498]LogBlueprintUserMessages: [BP_Weapon_C_UAID_98E7439945056DDD01_1610540719] Item Obtained
+[2024.04.08-05.39.41:169][805]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.08-05.39.41:169][805]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.08-05.39.41:169][805]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.08-05.39.41:170][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.08-05.39.41:170][805]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.08-05.39.41:175][805]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.08-05.39.41:180][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.08-05.39.41:195][805]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.08-05.39.41:196][805]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.04.08-05.39.41:196][805]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.04.08-05.39.41:197][805]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.04.08-05.39.41:201][805]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.08-05.39.41:204][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.04.08-05.39.41:276][806]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.04.08-05.40.38:497][183]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.08-05.40.38:503][183]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.08-05.40.38:503][183]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.08-05.40.38:505][183]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 20 ms)
+[2024.04.08-05.40.38:506][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.08-05.40.38:506][183]PIE: New page: PIE session: ThirdPersonMap (Apr 7, 2024, 3:40:38 PM)
+[2024.04.08-05.40.38:506][183]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.08-05.40.38:515][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008837s)
+[2024.04.08-05.40.38:515][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.008865s)
+[2024.04.08-05.40.38:529][183]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.04.08-05.40.38:531][183]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.08-05.40.38:531][183]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.08-05.40.38:531][183]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.08-05.40.38:532][183]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.08-05.40.38:532][183]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.08-05.40.38:532][183]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.08-05.40.38:532][183]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.08-05.40.38:534][183]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.08-05.40.38:534][183]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 4.03 sec)
+[2024.04.08-05.40.38:534][183]LogPlayLevel: PIE: World Init took: (0.003267s)
+[2024.04.08-05.40.38:534][183]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.04.08-05.40.38:534][183]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.08-05.40.38:534][183]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.08-05.40.38:534][183]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.08-05.40.38:534][183]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.08-05.40.38:534][183]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.08-05.40.38:534][183]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.08-05.40.38:534][183]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.08-05.40.38:534][183]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.08-05.40.38:535][183]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.08-05.40.38:535][183]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.08-05.40.38:535][183]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.08-05.40.38:536][183]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.08-05.40.38:553][183]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Stealth 600P Gen 2 USB)
+[2024.04.08-05.40.38:553][183]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.08-05.40.38:553][183]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.08-05.40.38:553][183]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.08-05.40.38:554][183]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.04.08-05.40.38:554][183]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.04.08-05.40.38:555][183]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.04.08-05.40.38:555][183]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.04.08-05.40.38:555][183]LogInit: FAudioDevice initialized with ID 6.
+[2024.04.08-05.40.38:556][183]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonMap'.
+[2024.04.08-05.40.38:556][183]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.04.08-05.40.38:558][183]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.08-05.40.38:567][183]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.04.07-22.40.38
+[2024.04.08-05.40.38:567][183]LogWorld: Bringing up level for play took: 0.008575
+[2024.04.08-05.40.38:569][183]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.04.08-05.40.38:572][183]PIE: Server logged in
+[2024.04.08-05.40.38:573][183]PIE: Play in editor total start time 0.07 seconds.
+[2024.04.08-05.40.49:743][849]LogBlueprintUserMessages: [BP_Weapon_C_UAID_98E7439945056DDD01_1610540719] Item Obtained
+[2024.04.08-05.40.53:629][ 82]LogBlueprintUserMessages: [BP_Dummy_C_UAID_98E74399450558E901_1840190695] I HAVE BEEN DAMAGED! OW!
+[2024.04.08-05.40.55:327][184]LogBlueprintUserMessages: [BP_Dummy_C_UAID_98E74399450558E901_1840190695] I HAVE BEEN DAMAGED! OW!
+[2024.04.08-05.40.56:010][225]LogCharacterMovement: BP_ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-47.92 Y=-18.48 Z=0.00 Location: X=501.20 Y=2139.06 Z=92.21 Normal: X=0.56 Y=-0.83 Z=0.00 PenetrationDepth:17.277 Actor:BP_Dummy_C_UAID_98E74399450558E901_1840190695 Component:CharacterMesh0 BoneName:lowerarm_r (0 other events since notify)
+[2024.04.08-05.40.56:824][253]LogBlueprintUserMessages: [BP_Dummy_C_UAID_98E74399450558E901_1840190695] I HAVE BEEN DAMAGED! OW!
+[2024.04.08-05.40.59:925][439]LogBlueprintUserMessages: [BP_Dummy_C_UAID_98E74399450558E901_1840190695] I HAVE BEEN DAMAGED! OW!
+[2024.04.08-05.41.00:424][469]LogBlueprintUserMessages: [BP_Dummy_C_UAID_98E74399450558E901_1840190695] I HAVE BEEN DAMAGED! OW!
+[2024.04.08-05.41.04:621][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.08-05.41.04:621][718]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.08-05.41.04:621][718]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.08-05.41.04:621][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.08-05.41.04:621][718]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.08-05.41.04:629][718]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.08-05.41.04:633][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.08-05.41.04:649][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.08-05.41.04:650][718]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.04.08-05.41.04:650][718]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.04.08-05.41.04:651][718]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.04.08-05.41.04:659][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.04.08-05.41.04:729][719]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.04.08-05.41.05:999][793]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.08-05.41.06:005][793]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.08-05.41.06:005][793]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.08-05.41.06:008][793]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 22 ms)
+[2024.04.08-05.41.06:008][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.08-05.41.06:008][793]PIE: New page: PIE session: ThirdPersonMap (Apr 7, 2024, 3:41:06 PM)
+[2024.04.08-05.41.06:008][793]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.08-05.41.06:017][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008340s)
+[2024.04.08-05.41.06:017][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.008370s)
+[2024.04.08-05.41.06:031][793]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.04.08-05.41.06:033][793]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.08-05.41.06:033][793]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.08-05.41.06:033][793]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.08-05.41.06:034][793]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.08-05.41.06:034][793]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.08-05.41.06:034][793]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.08-05.41.06:034][793]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.08-05.41.06:036][793]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.08-05.41.06:036][793]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 4.03 sec)
+[2024.04.08-05.41.06:036][793]LogPlayLevel: PIE: World Init took: (0.003138s)
+[2024.04.08-05.41.06:036][793]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.04.08-05.41.06:036][793]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.08-05.41.06:036][793]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.08-05.41.06:036][793]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.08-05.41.06:036][793]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.08-05.41.06:036][793]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.08-05.41.06:036][793]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.08-05.41.06:036][793]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.08-05.41.06:036][793]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.08-05.41.06:037][793]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.08-05.41.06:037][793]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.08-05.41.06:037][793]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.08-05.41.06:039][793]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.08-05.41.06:055][793]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Stealth 600P Gen 2 USB)
+[2024.04.08-05.41.06:055][793]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.08-05.41.06:055][793]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.08-05.41.06:055][793]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.08-05.41.06:055][793]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.04.08-05.41.06:055][793]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.04.08-05.41.06:057][793]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.04.08-05.41.06:057][793]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.04.08-05.41.06:057][793]LogInit: FAudioDevice initialized with ID 7.
+[2024.04.08-05.41.06:057][793]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonMap'.
+[2024.04.08-05.41.06:057][793]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.04.08-05.41.06:060][793]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.08-05.41.06:069][793]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.04.07-22.41.06
+[2024.04.08-05.41.06:069][793]LogWorld: Bringing up level for play took: 0.008501
+[2024.04.08-05.41.06:071][793]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.04.08-05.41.06:074][793]PIE: Server logged in
+[2024.04.08-05.41.06:075][793]PIE: Play in editor total start time 0.069 seconds.
+[2024.04.08-05.41.08:360][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.08-05.41.08:360][924]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.08-05.41.08:361][924]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.08-05.41.08:361][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.08-05.41.08:361][924]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.08-05.41.08:366][924]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.08-05.41.08:371][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.08-05.41.08:386][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.08-05.41.08:387][924]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.04.08-05.41.08:387][924]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.04.08-05.41.08:389][924]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.04.08-05.41.08:395][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.04.08-05.41.08:466][925]LogPlayLevel: Display: Destroying online subsystem :Context_26
